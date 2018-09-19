@@ -185,6 +185,14 @@ a .panthers-logo {
     height: 100%;
 }
 
+.main-left:hover {
+    cursor: pointer;
+}
+
+.side-nav-articles li:hover {
+    cursor: pointer;
+}
+
 .main-right {
     flex: 1;
     display: flex;
@@ -245,12 +253,19 @@ a .panthers-logo {
     width: 28rem;
 }
 
+.pepsi-ad:hover {
+    cursor: pointer;
+}
+
 
 /*-- VIDEO SECTION STYLES --*/
 
 .video-container {
     width: 125rem;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .video-list {
@@ -267,6 +282,10 @@ a .panthers-logo {
     margin: 1rem 0;
 }
 
+.video-list li:hover {
+    cursor: pointer;
+}
+
 .video-list img {
     width: 100%;
 }
@@ -276,6 +295,12 @@ a .panthers-logo {
     font-size: 1.2rem;
     color: #0c75b0;
     margin-top: 1.5rem;
+    display: inline-flex;
+    align-self: center;
+}
+
+.video-container h3:hover {
+    cursor: pointer;
 }
 
 .video-heading {
@@ -339,6 +364,10 @@ a .panthers-logo {
     height: 60rem;
 }
 
+.top-left:hover {
+    cursor: pointer;
+}
+
 .top-right {
     height: 60rem;
     margin-right: 2rem;
@@ -355,6 +384,10 @@ a .panthers-logo {
 .photo-gallery-bottom img {
     height: 37rem;
     margin: 0 1.5rem;
+}
+
+.photo-gallery-bottom img:hover {
+    cursor: pointer;
 }
 
 
@@ -384,6 +417,10 @@ a .panthers-logo {
     justify-content: center;
     align-items: center;
     font-weight: 900;
+}
+
+.logo-challenge li:hover {
+    cursor: pointer;
 }
 
 .logo-challenge img {
@@ -427,6 +464,11 @@ a .panthers-logo {
     margin-top: 2rem;
 }
 
+.social-media-list li:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
 .social-media-list img {
     width: 2.5rem;
 }
@@ -466,9 +508,17 @@ a .panthers-logo {
     margin-right: 2rem;
 }
 
+.foundationImg:hover {
+    cursor: pointer;
+}
+
 .offFieldImg {
     height: 33.5rem;
     margin-left: 2rem;
+}
+
+.offFieldImg:hover {
+    cursor: pointer;
 }
 
 .schedule {
@@ -486,6 +536,10 @@ a .panthers-logo {
     font-size: 1.4rem;
     color: #0c75b0;
     font-weight: 700;
+}
+
+.schedule button:hover {
+    cursor: pointer;
 }
 
 .diamond-ad {
@@ -557,6 +611,10 @@ a .panthers-logo {
 .panthers-ads li {
     width: 40rem;
     margin: 0 1rem;
+}
+
+.panthers-ads li:hover {
+    cursor: pointer;
 }
 
 .panthers-ads li img {
@@ -631,6 +689,10 @@ a .panthers-logo {
     color: lightgray;
 }
 
+.bottom-nav-info li:hover {
+    cursor: pointer;
+}
+
 .about-us-list li:first-child {
     font-size: 1.4rem;
     color: white;
@@ -678,6 +740,10 @@ a .panthers-logo {
     margin: 0 1.5rem;
 }
 
+.flex-list li:hover {
+    cursor: pointer;
+}
+
 .flex-list img {
     width: 100%;
     height: 100%;
@@ -712,6 +778,10 @@ a .panthers-logo {
     margin: 1rem;
 }
 
+.logo-copyright img:hover {
+    cursor: pointer;
+}
+
 .footer-logo ul {
     padding: 0;
     margin: 0;
@@ -726,6 +796,10 @@ a .panthers-logo {
     font-size: 1.3rem;
 }
 
+
+.footer-logo li:hover {
+    cursor: pointer;
+}
 
 /*-- MEDIA QUERIES --*/
 
@@ -867,6 +941,10 @@ a .panthers-logo {
         display: flex;
     }
     
+    .nav-svg:hover {
+        cursor: pointer;
+    }
+    
     .mobile-navigation {
         display: flex;
         width: 100%;
@@ -920,6 +998,10 @@ a .panthers-logo {
         border-top: 1px solid #ddd;
         padding: 1.5rem 0;
         display: flex;
+    }
+    
+    .mobile-nav li:hover {
+        cursor: pointer;
     }
     
     .nav-list {
@@ -1113,8 +1195,12 @@ a .panthers-logo {
         height: auto;
     }
     
-    .bottom-nav-info {
+    .bottom-nav-info ul {
         display: none;
+    }
+    
+    .bottom-nav-info {
+        height: 12rem;
     }
     
     .bottom-nav ul {
@@ -1138,6 +1224,16 @@ a .panthers-logo {
     
     .bottom-nav {
         height: auto;
+    }
+    
+    .footer-logo ul {
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+    
+    .footer-logo li {
+        margin: 1rem;
+        font-size: 1.2rem;
     }
 }
 
